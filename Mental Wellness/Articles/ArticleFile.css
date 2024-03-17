@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+header{
+    background-color: #0072c6;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo a:hover{
+    color: black;
+}
+.logo img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-link li{
+    margin: 0 10px;
+}
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.nav-link a:hover{
+    color: black;
+}
+.btn-position{
+    margin-left: 15px;
+    margin-right: 25px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 6.25rem;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+.btn-position:hover{
+    color: black;
+    border-color: black;
+}
+.artt {
+    color: white;
+    margin-top: -90px;
+    text-align: justify;
+    margin-left: 26px;
+    font-size: 34px;
+}
+#quiz {
+    margin-left: 7%;
+    float: left;
+    width: 40%;
+    background-color: #ddddde;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.quiz{
+    text-align: center;
+}
+#quiz-text {
+    float: left;
+    margin-left: 50%;
+    margin-top: -113vh;
+    width: 45%;
+}
+.quizHead{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.head1{
+    font-size: 34px;
+}
+.head2{
+    font-size: 26px;
+}
+.content{
+    font-size: 20px;
+}
+
+#footer{
+    background-color: #666666;
+    height: 260px;
+    padding: 1em;
+}
+#footer-head1{
+    color: white; 
+}
+#footer-head2{
+    color: #87cefa;
+}
+#fList{
+    display: inline-block;
+    padding: 12px;
+    border-right: 2px solid white;
+}
+#fList1{
+    display: inline-block;
+    padding: 12px;
+}
+#fList1 a{
+    color: white;
+    text-decoration: none;
+}
+#fList a{
+    color: white;
+    text-decoration: none;
+}
+#contactD{
+    float: right;
+    margin-top: -33vh;
+    margin-right: 85vh;
+    color: white;
+}
+#About{
+    float:right;
+    margin-left: 71%;
+    margin-top: -33vh;
+    margin-right: 17vh;
+    color: white;
+}

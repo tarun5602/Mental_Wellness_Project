@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.img{
+    opacity: 0.7;
+}
+#doc1{
+    padding-top: 20vh;
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+    margin-left: 120px;
+}
+#inner-nav{
+    background-color: rgb(76 76 76);
+    width: 41%;
+    float: right;
+    margin-top: -80px;
+    opacity: 0.9;
+    position: relative;
+}
+.tranpic{
+    background-color: #110e0e;
+    opacity: 0.7;
+    margin-top: -59vh;
+    margin-bottom: 10vh;
+    height: 385px;
+    width: 100%;
+}
+.navb{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    color: black;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+#img{
+    margin-left: 30vh;
+}
+#text{
+    margin-left: 96vh;
+    margin-top: -44vh;
+}
+#parah{
+    font-size: 20px;
+    width: 90vh;
+}
+.Twobtn {
+    padding: 0.8em 1.8em;
+    border: 2px solid #0072c6;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: black;
+    margin-left: 96vh;
+    border-radius: 9px;
+    transform: scale(1);    
+}   
+.Twobtn::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #0072c6;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}   
+.Twobtn:hover::before {
+    width: 105%;
+}   
+.Twobtn:hover {
+    color: white;
+    transform: scale(1.1);
+}
+.line{
+    border-bottom: #1c88af 5px solid;
+}
+#Experience{
+    display: none;
+}
+#Qualification{
+    display: none;
+}
+.btn1{
+    padding: 0.8em 1.8em;
+    color: #2e99ff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px;
+}
+.btn2{
+    padding: 0.8em 1.8em;
+    color: #2e99ff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px;
+}
+.btn3{
+    padding: 0.8em 1.8em;
+    color: #2e99ff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 0px;
+}
+#Schedule{
+    margin-left: 91vh;
+    margin-top: 20px;
+}
+#Experience{
+    margin-left: 91vh;
+    margin-top: 20px;
+}
+#Qualification{
+    margin-left: 91vh;
+    margin-top: 20px;
+}
+.opened{
+    color: rgb(49, 49, 49);
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: none;
+    margin-bottom: -1;
+}
+.btns{
+    border-bottom: 1px solid grey;
+    list-style-type: none;
+    display: inline-flex;
+    width: 56%;
+    margin-left: 51vh;
+    float: right;
+    position: relative;
+}
+.btnn {
+    cursor: pointer;
+    font-size: 17px;
+}
+.schelude{
+    padding: 20px;
+}
+th{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   background-color: #110e0e;
+   color: white;
+}
+td{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer{
+    background-color: #666666;
+    height: 260px;
+    padding: 1em;
+}
+#footer-head1{
+    color: white; 
+}
+#footer-head2{
+    color: #87cefa;
+}
+#fList{
+    display: inline-block;
+    padding: 12px;
+    border-right: 2px solid white;
+}
+#fList1{
+    display: inline-block;
+    padding: 12px;
+}
+#fList1 a{
+    color: white;
+    text-decoration: none;
+}
+#fList a{
+    color: white;
+    text-decoration: none;
+}
+#contactD{
+    float: right;
+    margin-top: -33vh;
+    margin-right: 85vh;
+    color: white;
+}
+#About{
+    float:right;
+    margin-left: 71%;
+    margin-top: -33vh;
+    margin-right: 17vh;
+    color: white;
+}
